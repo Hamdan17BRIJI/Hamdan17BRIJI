@@ -1,14 +1,14 @@
-- 👋html
+html
 <!DOCTYPE html>
 <html>
 <head>
  <meta charset="utf-8">
- <title>Video Chat Website</title>
+ <title>Chat Website</title>
  <link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
  <header>
-  <h1>Video Chat Website</h1>
+  <h1>Chat Website</h1>
   <nav>
    <ul>
     <li><a href="#">Home</a></li>
@@ -19,6 +19,23 @@
   </nav>
  </header>
  <main>
+  <section id="chat">
+   <h2>Chat</h2>
+   <div id="chat-window">
+    <div class="message">
+     <div class="from">User 1:</div>
+     <div class="message-content">Hello, how are you?</div>
+    </div>
+    <div class="message">
+     <div class="from">User 2:</div>
+     <div class="message-content">I'm fine, thanks. How about you?</div>
+    </div>
+   </div>
+   <form id="chat-form">
+    <input type="text" id="chat-input" placeholder="Type your message here">
+    <buttontype="submit">Send</button>
+   </form>
+  </section>
   <section id="video-chat">
    <h2>Video Chat</h2>
    <div id="video-chat-window">
@@ -30,18 +47,8 @@
   </section>
  </main>
  <footer>
-  <p>&copy; 2023 Video Chat Website</p>
+  <p>&copy; 2023 Chat Website</p>
  </footer>
  <script src="app.js"></script>
 </body>
 </html>
- Hi, I’m @Hamdan17BRIJI
-- 👀 I’m interested in ...
-- 🌱 I’m currently learning ...
-- 💞️ I’m looking to collaborate on ...
-- 📫 How to reach me ...
-
-<!---
-Hamdan17BRIJI/Hamdan17BRIJI is a ✨ special ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-You can click the Preview link to take a look at your changes.
---->
